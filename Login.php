@@ -21,7 +21,7 @@
 		 $string = $name.":".$password;
 	   $_SESSION["name"] = $name;
    		 
-     #my .txt file was named passwd.txt  
+     #my passwd.txt holds user login information 
 		 $fh = fopen("passwd.txt","a");
 	 	 $fr = fopen("passwd.txt","r");	 
 		 $path = "passwd.txt";
