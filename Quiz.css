@@ -1,0 +1,60 @@
+body{
+    background-color:#925c70;
+    text-align: center;
+    animation-name: example;
+    animation-duration: 100s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes example {
+    0% {background-color:#925c70;}
+    10% {background-color:#a17081;}
+    20% {background-color:#b08695;}
+    30% {background-color:#b693a0;}
+    40% {background-color:#c3a4b0;}
+    50% {background-color:#925c70;}
+    60% {background-color:#a17081;}
+    70% {background-color:#b08695;}
+    80% {background-color:#b693a0;}
+    90% {background-color:#c3a4b0;}
+    100% {background-color:#925c70;}
+}
+
+form {
+    display: inline-block;
+    width: 600px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #9a7b78;
+    display: inline-block;
+    position: relative;
+    font-family: serif;
+    font-size: 14pt;
+    
+    
+}
+
+input[type=text],input[type=password] {
+    padding: 5px;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow:0 0 9px 4px rgba(0,0,0,0.06);
+}
+
+input[type=submit]{
+   
+	border-radius: 10px;
+	cursor: pointer;
+	color: #000000;
+	text-align: center;
+	width: 300px;
+	margin-top: 20px;
+	padding: 14px 20px;
+	border: 0px;
+	background-color: #C0C0C0;
+	color: black;
+	cursor: pointer;
+	font-size: 11pt;
+
+}
